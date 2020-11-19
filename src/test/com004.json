@@ -1,0 +1,28 @@
+{
+  "status": 200,
+  "data": {
+    "err_flg": 0,
+    "template_list": [
+      {
+        "template_id": 1,
+        "template_name": "テンプレートさんぷる"
+      },
+      {
+        "template_id": 2,
+        "template_name": "テンプレートさんぷる2"
+      },
+      {
+        "template_id": 3,
+        "template_name": "テンプレートさんぷる3"
+      },
+      {
+        "template_id": 4,
+        "template_name": "テンプレートさんぷる4"
+      },
+      {
+        "template_id": 5,
+        "template_name": "テンプレートさんぷる5"
+      }
+    ]
+  }
+}

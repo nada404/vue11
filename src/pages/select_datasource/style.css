@@ -1,0 +1,200 @@
+.select-ds {
+  padding: 40px;
+}
+
+.select-ds-ttl {
+  margin-left: 70px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.top-menu-ttl {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  margin: 10px 0 50px 70px;
+}
+
+.area-toggle {
+  display: inline-block;
+  background: transparent url("../../static2/images/select_datasource_open.png") no-repeat left;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.area-toggle.open {
+  background: transparent url("../../static2/images/select_datasource_close.png") no-repeat left;
+}
+
+/* セグメント検索、キーワード検索 共通 */
+
+.select-ds-main {
+  display: none;
+  margin-left: 70px;
+  margin-bottom: 70px;
+}
+
+.select-ds-main.open {
+  display: block;
+}
+
+.select-ds-container {
+  display: inline-flex;
+  font-size: 14px;
+}
+
+.select-ds-list {
+  display: inline-block;
+  width: 360px;
+  /*height: 400px;*/
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.select-ds-list-ttl {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.select-ds-list-ttl .selected-ttl {
+  height: 40px;
+  line-height: 40px;
+}
+
+.select-ds-list-ttl .search-keyword-label {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+.select-ds-list-ttl .search-keyword-input input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 20px;
+  padding: 0;
+}
+
+.select-ds-list-ttl .search-keyword-input {
+  position: relative;
+}
+
+.select-ds-list-ttl .search-keyword-icon {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.area-list-container {
+  padding: 10px;
+}
+
+.area-list {
+  padding: 10px;
+  height: 320px;
+  border: 1px solid #d3d9df;
+  overflow: auto;
+  word-break: break-all;
+}
+
+.select-ds-middle {
+  display: inline-block;
+  margin-top: 100px;
+  padding: 0 20px;
+  /*width: 30px;*/
+  /*height: 400px;*/
+}
+
+.select-ds-middle .area-btn {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px #777 solid;
+  background-color: #c0c0c0;
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+.select-ds-middle .area-btn:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.select-ds-middle .area-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.select-ds-middle .area-btn .area-btn-label {
+  display: block;
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  bottom: -100%;
+  font-size: 9px;
+}
+
+.merge-list {
+  display: inline-block;
+}
+
+.merge-list li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.merge-list .merge-cancel-icon {
+  display: inline-block;
+  margin-left: .5em;
+  cursor: pointer;
+}
+
+.merge-list .merge-keyword-list {
+  display: block;
+  margin-top: 2px;
+  margin-left: 1em;
+  padding: .5em;
+  font-size: 12px;
+  background-color: #d3d9df;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.area-list .list-title {
+  font-size: .8rem;
+  margin-top: 1em;
+  margin-bottom: .7em;
+}
+
+.area-list .toggle {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.area-list .item-block {
+  margin-bottom: .5rem;
+}
+
+.area-list .item-check input {
+  margin: 3px 0;
+}
+
+@media screen and ( max-width: 1200px ) {
+  /* 画面幅を縮めたときに余分なmarginは消す */
+  .select-ds-main {
+    margin-left: 0;
+  }
+
+}

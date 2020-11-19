@@ -1,0 +1,156 @@
+.tabs-component-panels {
+  padding: 15px;
+  background-color: #FFF;
+  border: solid 1px #ddd;
+}
+
+.tabs-component {
+  /*margin: 4em 0;*/
+  margin-top: -20px;
+}
+
+.tabs-component-tabs {
+  border: solid 1px #ddd;
+  /*border-radius: 0 0 6px 6px;*/
+  margin-bottom: 5px;
+  /*position: fixed;*/
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  height: 47px;
+  background-color: #F1F3F6;
+  opacity: 1.0;
+  z-index: 999;
+  padding-top: 20px;
+}
+
+.tabs-component ::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+.tabs-component ::-webkit-scrollbar-track {
+  background: #fff;
+  border-left: solid 1px #DDD;
+  border-right: solid 1px #DDD;
+}
+
+.tabs-component ::-webkit-scrollbar-thumb {
+  background: #DDD;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+.tabs-component-tab {
+  border-bottom: dotted 1px #ddd;
+  color: #999;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 0;
+  list-style: none;
+  width: 9em;
+  min-width: 9em;
+}
+
+.tabs-component-tab:hover {
+  color: #666;
+}
+
+.tabs-component-tab.is-active {
+  color: #000;
+}
+
+.tabs-component-tab.is-disabled * {
+  color: #cdcdcd;
+  cursor: not-allowed !important;
+}
+
+@media (max-width: 599px) {
+  .tab-view-container {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .tabs-component-tabs {
+    border: 0;
+    /*align-items: stretch;*/
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -1px;
+  }
+
+  .tabs-component-tab {
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-bottom: dotted 1px #ddd;
+    border-radius: 3px 3px 0 0;
+    margin-right: .5em;
+    transform: translateY(2px);
+    transition: transform .3s ease;
+  }
+
+  .tabs-component-tab.is-active {
+    border-bottom: solid 1px #fff;
+    z-index: 2;
+    transform: translateY(0);;
+  }
+}
+
+.tabs-component-tab-a {
+  align-items: center;
+  color: inherit;
+  display: flex;
+  padding: .75em 1em;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.tab-component-panels {
+  padding: 4em 0;
+}
+
+@media (min-width: 600px) {
+  .tabs-components-panels {
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 0 6px 6px 6px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .05);
+    padding: 4em 2em;
+  }
+}
+
+.tabs-component-panel {
+  /*margin-top: 20px;*/
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.tab-panels-container {
+  /*position: relative;*/
+  /*top: 40px;*/
+}
+
+.tab-name-ellipsis {
+  position: fixed;
+  top: 12px; /* = height + margin-top (of .tab-close-trigger) */
+}
+
+.main-container {
+  /*height: unset;*/
+}
+
+.tab-close-trigger {
+  float: right;
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  margin-right: -4px;
+  margin-top: -8px;
+  transform: rotate(45deg);
+}
+
+.tab-closer {
+  display: none;
+}

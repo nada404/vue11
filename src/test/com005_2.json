@@ -1,0 +1,54 @@
+{
+  "status": 200,
+  "data": {
+    "err_flg": 0,
+    "data_source_keyword": ["A_royal", "B_royal", "C_royal"],
+    "datasets": [
+      {
+        "label_id": 21,
+        "label": "格安旅行に興味",
+        "score": [50, 70, 10]
+      },
+      {
+        "label_id": 22,
+        "label": "海外旅行を検討",
+        "score": [5, 25, 35]
+      },
+      {
+        "label_id": 23,
+        "label": "マイルを貯める",
+        "score": [20, 60, 80]
+      },
+      {
+        "label_id": 24,
+        "label": "国内旅行を検討",
+        "score": [50, 70, 10]
+      },
+      {
+        "label_id": 25,
+        "label": "リゾートに行く",
+        "score": [5, 25, 35]
+      },
+      {
+        "label_id": 26,
+        "label": "家族旅行を検討",
+        "score": [20, 60, 80]
+      },
+      {
+        "label_id": 27,
+        "label": "温泉に興味",
+        "score": [50, 70, 10]
+      },
+      {
+        "label_id": 28,
+        "label": "週末に旅行を検討",
+        "score": [5, 25, 35]
+      },
+      {
+        "label_id": 29,
+        "label": "クルーズに興味",
+        "score": [20, 60, 80]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": 200,
+  "data": {
+    "err_flg": 0,
+    "keywords": [
+      {
+        "keyword": "kfc",
+        "signal_data": "TREND\\TIS\\JPN\\Sample.folder\\i love kfc.trend_google_tc"
+      },
+      {
+        "keyword": "kfc delivery",
+        "signal_data": "TREND\\TIS\\JPN\\Sample.folder\\kfc delivery.trend_google_tc"
+      }
+    ],
+    "search_historys": [
+      {
+        "merged_name": "",
+        "data_source_keywords": [
+          "kfc"
+        ],
+        "get_month": [
+          "2020_01",
+          "2020_02",
+          "2020_03"
+        ]
+      },
+      {
+        "merged_name": "マージ済みキーワードサンプル",
+        "data_source_keywords": [
+          "マージ元データソース1",
+          "マージ元データソース2",
+          "マージ元データソース3"
+        ],
+        "get_month": [
+          "2020_01",
+          "2020_02",
+          "2020_03"
+        ]
+      }
+    ]
+  }
+}

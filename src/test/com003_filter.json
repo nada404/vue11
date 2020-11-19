@@ -1,0 +1,34 @@
+{
+  "status": 200,
+  "data": {
+    "err_flg": 0,
+    "keywords": [
+      {
+        "keyword": "test",
+        "signal_data": "TREND\\TIS\\JPN\\Sample.folder\\i love kfc.trend_google_tc"
+      }
+    ],
+    "search_historys": [
+      {
+        "merged_name": "",
+        "data_source_keywords": [
+          "test"
+        ],
+        "get_month": [
+          "2020_01"
+        ]
+      },
+      {
+        "merged_name": "マージ済みキーワードサンプル",
+        "data_source_keywords": [
+          "マージ元データソース1",
+          "マージ元データソース2",
+          "マージ元データソース3"
+        ],
+        "get_month": [
+          "2020_01"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": 200,
+  "data": {
+    "err_flg": 0,
+    "data_source_keyword": ["A_royal", "B_royal", "C_royal"],
+    "datasets": [
+      {
+        "label_id": 1,
+        "label": "保険",
+        "score": [118, 56, 88]
+      },
+      {
+        "label_id": 2,
+        "label": "旅行に対する関心",
+        "score": [115, 33, 26]
+      }
+    ]
+  }
+}

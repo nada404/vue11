@@ -1,0 +1,171 @@
+/*
+  全画面共通スタイルシート
+  画面個別のスタイルは、それぞれのvueファイルに記載
+*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.app-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background-color: white;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.side-container {
+  position: fixed;
+  top: 90px;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: #313A46;
+  overflow: auto;
+  z-index: 998;
+}
+
+.side {
+  margin: 20px 10px 10px 10px;
+  color: #FFF;
+}
+
+.side a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.main-container {
+  position: fixed;
+  top: 90px;
+  left: 300px;
+  right: 0;
+  bottom: 0;
+  background-color: #F1F3F6;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.tab-view-container {
+  margin: 20px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  padding: 20px;
+}
+
+.modal-header {
+  height: 60px;
+  line-height: 60px;
+}
+.modal-body {
+  font-size: 14px;
+}
+
+.modal-body .input-text {
+  margin: 20px;
+}
+
+.modal-body .input-text input {
+  width: 100%;
+}
+
+.modal-footer {
+  text-align: right;
+}
+
+.selectedItem {
+  text-overflow: ellipsis;
+}
+
+.no-select {
+  user-select: none;
+}
+
+button {
+  font-size: 14px;
+  height: 26px;
+}
+
+button:disabled {
+  color: #BBB;
+}
+
+.area-button.right {
+  text-align: right;
+}
+
+.area-button .button {
+  color: #555555;
+  background-color: #D9D9D9;
+  border: solid 1px #555555;
+  padding: 0 20px;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+}
+.area-button .button.disabled {
+  cursor: auto;
+}
+
+.fix-spinner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #000;
+  opacity: 0.5;
+  user-select: none;
+  z-index: 1000;
+}
+.fix-spinner .spinner {
+  animation:3s linear infinite rotation;
+}
+@keyframes rotation{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+.fix-spinner .loading-text {
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1024px) {
+  /*　画面サイズ幅によってスタイルを変えたい場合、メディアクエリを用いて実装　*/
+}

@@ -1,0 +1,76 @@
+{
+  "status": 200,
+  "data": {
+    "err_flg": 0,
+    "hierarchy": [
+      {
+        "hierarchy_name": "セグメントフォルダ(1階層目)_1",
+        "segment_set": [],
+        "hierarchy": [
+          {
+            "hierarchy_name": "セグメントフォルダ(2階層目)",
+            "segment_set": [],
+            "hierarchy": [
+              {
+                "hierarchy_name": "セグメントフォルダ(3階層目)",
+                "segment_set": [],
+                "hierarchy": [
+                  {
+                    "hierarchy_name": "セグメントフォルダ(4階層目)",
+                    "segment_set": [
+                      {
+                        "segment_id": 41,
+                        "segment_name": "A_royal",
+                        "signal_data": "A_royalのシグナルデータ"
+                      },
+                      {
+                        "segment_id": 42,
+                        "segment_name": "B_royal",
+                        "signal_data": "B_royalのシグナルデータ"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "past_hierarchy": [
+      {
+        "hierarchy_name": "階層",
+        "segment_set": [
+          {
+            "merged_name": "マージ名",
+            "segment_id": [
+              41,
+              42,
+              112
+            ],
+            "segment_name": [
+              "A_royal",
+              "B_royal",
+              "H_royal"
+            ],
+            "get_month": [
+              "2020_01"
+            ]
+          },
+          {
+            "segment_id": [
+              11
+            ],
+            "segment_name": [
+              "A_royal"
+            ],
+            "get_month": [
+              "2019_11",
+              "2019_12"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

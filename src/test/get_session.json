@@ -1,0 +1,10 @@
+{
+  "user_id": 1,
+  "is_authorizer": 1,
+  "is_manager": 1,
+  "is_claimant": 1,
+  "is_auditor": 1,
+  "is_system": 1,
+  "language": "ja",
+  "department_cd": "001"
+}

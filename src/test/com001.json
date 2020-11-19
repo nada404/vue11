@@ -1,0 +1,131 @@
+{
+  "status": 200,
+  "data": {
+    "err_flg": 0,
+    "hierarchy": [
+      {
+        "hierarchy_name": "セグメントフォルダ(1階層目)_1",
+        "segment_set": [
+          {
+            "segment_id": 11,
+            "segment_name": "F_royal",
+            "signal_data": "F_royalのシグナルデータ"
+          },
+          {
+            "segment_id": 12,
+            "segment_name": "G_royal",
+            "signal_data": "G_royalのシグナルデータ"
+          }
+        ],
+        "hierarchy": [
+          {
+            "hierarchy_name": "セグメントフォルダ(2階層目)",
+            "segment_set": [
+              {
+                "segment_id": 21,
+                "segment_name": "D_royal",
+                "signal_data": "D_royalのシグナルデータ"
+              },
+              {
+                "segment_id": 22,
+                "segment_name": "E_royal",
+                "signal_data": "E_royalのシグナルデータ"
+              }
+            ],
+            "hierarchy": [
+              {
+                "hierarchy_name": "セグメントフォルダ(3階層目)",
+                "segment_set": [],
+                "hierarchy": [
+                  {
+                    "hierarchy_name": "セグメントフォルダ(4階層目)",
+                    "segment_set": [
+                      {
+                        "segment_id": 41,
+                        "segment_name": "A_royal",
+                        "signal_data": "A_royalのシグナルデータ"
+                      },
+                      {
+                        "segment_id": 42,
+                        "segment_name": "B_royal",
+                        "signal_data": "B_royalのシグナルデータ"
+                      },
+                      {
+                        "segment_id": 43,
+                        "segment_name": "C_royal",
+                        "signal_data": "C_royalのシグナルデータ"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hierarchy_name": "セグメントフォルダ(1階層目)_2",
+        "segment_set": [
+          {
+            "segment_id": 112,
+            "segment_name": "H_royal",
+            "signal_data": "H_royalのシグナルデータ"
+          },
+          {
+            "segment_id": 122,
+            "segment_name": "I_royal",
+            "signal_data": "I_royalのシグナルデータ"
+          }
+        ]
+      }
+    ],
+    "past_hierarchy": [
+      {
+        "segment_set": [
+          {
+            "merged_name": "マージ名",
+            "segment_id": [
+              41,
+              42,
+              112
+            ],
+            "segment_name": [
+              "A_royal",
+              "B_royal",
+              "H_royal"
+            ],
+            "get_month": [
+              "2020_01",
+              "2020_02",
+              "2020_03"
+            ]
+          },
+          {
+            "segment_id": [
+              22
+            ],
+            "segment_name": [
+              "E_royal"
+            ],
+            "get_month": [
+              "2019_11",
+              "2019_12"
+            ]
+          },
+          {
+            "segment_id": [
+              11
+            ],
+            "segment_name": [
+              "F_royal"
+            ],
+            "get_month": [
+              "2019_11",
+              "2019_12"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
